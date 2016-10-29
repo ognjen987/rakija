@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.ognjen.rakija "
+    versionCode = "1" 
+    version     = "1.0.0" >
+   <name>Rakija</name>
+    <description>
+            Rakija. 
+    </description>
+    <author email="ognjen987@gmail.com">
+             Ognjen Miljic 
+    </author>
+    
+    <platform name="ios"/>
+    <platform name="android"/>
+    <platform name="winphone"/>
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="disallowOverscroll" value="true" />
+    <preference name="target-device" value="universal"/>
+    <preference name="deployment-target" value="7.0"/>
+    <preference name="exit-on-suspend" value="false"/>
+    <preference name="detect-data-types" value="true"/>
+    <preference name="prerendered-icon" value="false"/>
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="ios-statusbarstyle" value="default"/>
+    <preference name="StatusBarStyle" value="default" />
+    
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="android-installLocation" value="auto" />
+    
+    
+      
+      <preference name="permissions" value="none"/>
+      <access origin="*" subdomains="true"/>
+      
+      <allow-intent href="http://*/*"/>
+      <allow-intent href="https://*/*"/>
+      <allow-intent href="tel:*"/>
+      <allow-intent href="sms:*"/>
+      <allow-intent href="mailto:*"/>
+      <allow-intent href="geo:*"/>
+      <platform name="android">
+        <allow-intent href="market:*"/>
+      </platform>
+      <platform name="ios">
+        <allow-intent href="itms:*"/>
+        <allow-intent href="itms-apps:*"/>
+      </platform>
+      
+</widget>

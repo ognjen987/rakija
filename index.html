@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+<title>Rakija</title>
+
+<link rel="stylesheet" type="text/css" href="lib/css/jquery.mobile-1.4.5.min.css" />
+
+<script src="lib/js/jquery.js"></script>
+<script src="lib/js/jquery.mobile-1.4.5.min.js"></script>
+<script src="lib/js/app.js"></script>
+<script src="phonegap.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="mainPage">
+  <div data-role="header">
+    <h1>Rakija</h1>
+  </div>
+
+  <div data-role="main"  class="ui-content">    
+		<div data-role="fieldcontain">
+		    <label for="name">Količina rakije u litrima (L):</label>
+		    <input type="number" name="name" id="rakijaLitara" value=""  />
+		</div>
+		    
+		<div data-role="fieldcontain">
+		    <label for="name">Jačina koja se želi razblažiti (vol.%):</label>
+		    <input type="number" name="name" id="trenutnoIzmerenoStepeni" value=""  />
+		</div>
+		
+		<div data-role="fieldcontain">
+		    <label for="name">Željena jačina (vol.%):</label>
+		    <input type="number" name="name" id="kolikoZeliStepeni" value=""  />
+		</div>
+		<button id="racunaj" class="ui-btn ui-shadow">Rezultat</button>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1 id="kolVode"></h1>
+  </div>
+</div>
+	
+
+
+</body>
+</html>
